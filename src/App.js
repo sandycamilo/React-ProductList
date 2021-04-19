@@ -1,4 +1,11 @@
 import './App.css';
+import data, { 
+  allCategories,
+  uniqueCategories,
+  categoriesWithCounts,
+  arrayWithCounts
+} from './data';
+
 
 function App() {
   return (

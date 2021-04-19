@@ -29,16 +29,22 @@ const categoriesWithCounts = allCategories.reduce((obj, cat) => {
   }
   return obj
 }, {}) // !!! Be sure to define the initial value as an Object!
-// console.log(categoriesWithCounts)
+console.log(categoriesWithCounts)
 
 // make an array of objects that have a name and a count - reduce to an array
 const arrayWithCounts = allCategories.reduce((acc, cat) => {
- acc.push({name: cat, count: categoriesWithCounts[cat] })
+ acc.push({ name: cat, count:categoriesWithCounts[cat] })
  return acc
 }, []) 
 console.log(arrayWithCounts)
 
 
+export {
+  allCategories,
+  uniqueCategories,
+  categoriesWithCounts,
+  arrayWithCounts
+} 
 
 // export the native JS array
 export default data 
