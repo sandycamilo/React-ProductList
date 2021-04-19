@@ -1,16 +1,10 @@
 import './App.css';
-import data, { 
-  allCategories,
-  uniqueCategories,
-  categoriesWithCounts,
-  arrayWithCounts
-} from './data';
-
+import CategoryButton from './CategoryButton.js';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello</h1>
+    <div className="App"> 
+    <CategoryButton />
     </div>
   );
 }
