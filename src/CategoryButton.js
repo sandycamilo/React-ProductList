@@ -1,9 +1,5 @@
-import data, {   
-  allCategories,
-  uniqueCategories,
-  categoriesWithCounts,
-  arrayWithCounts 
-} from './data'
+import { uniqueCategories } from './data';
+import './CategoryButton.css';
 
 function CategoryButton() {
   return (
