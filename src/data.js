@@ -47,4 +47,4 @@ export {
 } 
 
 // export the native JS array
-export default data 
+export default data;

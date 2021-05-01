@@ -1,0 +1,32 @@
+.Product {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; */
+  border: .5px black solid;
+  color: black;
+  font-size: 20px;
+  width: 400px;
+  height: 300px;
+  position: relative; 
+  top: 20px;
+  left: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.Product > h1 {
+  background-color: rgb(14, 8, 8);
+  color: rgb(255, 253, 253);
+  padding: 20px;
+}
+
+.Product > h3 {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 1px;
+}
+
+.Product > p {
+  font-size: 22px;
+  color :rgb(16, 9, 9);
+  padding: 9px;
+}

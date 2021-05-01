@@ -1,10 +1,16 @@
 import { uniqueCategories } from './data';
 import './CategoryButton.css';
 
-function CategoryButton() {
+uniqueCategories.push('All')
+ 
+function CategoryButton(props) {
+  const { setCategory } = props
   return (
     uniqueCategories.map((category) => {
-      return <button>{category}</button>
+      return (
+      <button onClick={() => setCategory(category)}>
+        {category}</button>
+      ) 
     })   
   );
 }

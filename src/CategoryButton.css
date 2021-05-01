@@ -1,10 +1,12 @@
 button {
-  background-color: #1d7b20; /* Green */
   border: none;
-  color: white;
-  padding: 15px 8px;
+  border-radius: 10px;
+  color: rgb(38, 25, 25);
+  padding: 20px 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 22px;
+  font-size: 16px;
+  position: relative;
+  left: 20px;
 }
