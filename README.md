@@ -1,4 +1,4 @@
-# Reac-Product-List
+# React-Product-List
 
 ### Map ||  Filter || Reduce: 
 Map - transform all elements of an array. 
