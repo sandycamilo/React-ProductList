@@ -1,5 +1,8 @@
 # React-Product-List
 
+<img src= 'http://g.recordit.co/FsnrKjsKdh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
 ### Map ||  Filter || Reduce: 
 Map - transform all elements of an array. 
 
