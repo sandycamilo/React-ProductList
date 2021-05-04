@@ -4,7 +4,8 @@ import './SingleProduct.css';
 function SingleProduct(props) {
   const {category} = props
   return (
-    data.filter((item) => {
+    <div className="productWrap">
+    {data.filter((item) => {
       // if name matches 
       if (category === item.category || category === 'all') {
         return true
@@ -18,7 +19,8 @@ function SingleProduct(props) {
             <h3>{props.price}</h3>
           </div>
       )}  
-  ))   
+  )}</div>) 
 }
+
     
 export default SingleProduct;

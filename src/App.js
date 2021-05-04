@@ -11,10 +11,8 @@ function App() {
       <div className="title">
         <h1>Cheaply</h1>
       </div>
-    <CategoryButton className= "categoryButton" setCategory = { (name) => {
-      setCategory(name)
-    }}/>
-    <SingleProduct className= "singleProduct" category= {category}/>
+      <CategoryButton className= "categoryButton" selectedCategory= {category} setCategory = { (name) => {setCategory(name)}}/>
+      <SingleProduct className= "singleProduct" category= {category}/>
     </div>
   );
 }

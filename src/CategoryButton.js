@@ -4,11 +4,14 @@ import './CategoryButton.css';
 uniqueCategories.push('All')
  
 function CategoryButton(props) {
-  const { setCategory } = props
+  const { setCategory, selectedCategory } = props
+  // console.log(selectedCategory)
   return (
     uniqueCategories.map((category) => {
       return (
-      <button onClick={() => setCategory(category)}>
+      <button 
+      className= {category === selectedCategory ? "selectedCategory": ""}
+      onClick={() => setCategory(category)}>
         {category}</button>
       ) 
     })   
