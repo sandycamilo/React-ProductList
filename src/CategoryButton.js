@@ -1,7 +1,7 @@
 import { uniqueCategories } from './data';
 import './CategoryButton.css';
 
-uniqueCategories.push('All')
+uniqueCategories.push('all')
  
 function CategoryButton(props) {
   const { setCategory, selectedCategory } = props
